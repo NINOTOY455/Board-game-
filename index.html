@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>board game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+        }
+        .container {
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<header>welcome to my game by my team:)</header>
+
+<div class="container">
+    <h2>Press the button to say you want to play.</h2>
+    <p id="message">Please press it.</p>
+    <button onclick="showMessage()">Press here</button>
+</div>
+
+<script>
+    function showMessage() {
+        document.getElementById("message").innerHTML = "Thank you for wanting to play with our game. 🎉";
+    }
+</script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แบบทดสอบ Past Simple & Past Continuous</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .quiz-container {
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            text-align: left;
+        }
+        .question {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .options label {
+            display: block;
+            margin: 5px 0;
+            cursor: pointer;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Past Simple Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .quiz-container {
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            text-align: left;
+        }
+        .question {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .options label {
+            display: block;
+            margin: 5px 0;
+            cursor: pointer;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Past Simple Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .quiz-container {
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            text-align: left;
+        }
+        .question {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .options label {
+            display: block;
+            margin: 5px 0;
+            cursor: pointer;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Past Simple Quiz</h2>
+
+    <div class="quiz-container">
+        <form id="quizForm">
+            <!-- Question 1 -->
+            <div class="question">What did you do yesterday?</div>
+            <div class="options">
+                <label><input type="radio" name="q1" value="A"> A) I am playing football.</label>
+                <label><input type="radio" name="q1" value="B"> B) I will play football.</label>
+                <label><input type="radio" name="q1" value="C"> C) I played football.</label> <!-- ✅ คำตอบที่ถูกต้อง -->
+                <label><input type="radio" name="q1" value="D"> D) I was playing football.</label>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="question">She ____ to the store last night.</div>
+            <div class="options">
+                <label><input type="radio" name="q2" value="A"> A) go</label>
+                <label><input type="radio" name="q2" value="B"> B) goes</label>
+                <label><input type="radio" name="q2" value="C"> C) went</label> <!-- ✅ คำตอบที่ถูกต้อง -->
+                <label><input type="radio" name="q2" value="D"> D) going</label>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="question">They ____ the movie last weekend.</div>
+            <div class="options">
+                <label><input type="radio" name="q3" value="A"> A) watched</label> <!-- ✅ คำตอบที่ถูกต้อง -->
+                <label><input type="radio" name="q3" value="B"> B) watching</label>
+                <label><input type="radio" name="q3" value="C"> C) watch</label>
+                <label><input type="radio" name="q3" value="D"> D) will watch</label>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="question">We ____ to the beach last summer.</div>
+            <div class="options">
+                <label><input type="radio" name="q4" value="A"> A) go</label>
+                <label><input type="radio" name="q4" value="B"> B) went</label> <!-- ✅ คำตอบที่ถูกต้อง -->
+                <label><input type="radio" name="q4" value="C"> C) going</label>
+                <label><input type="radio" name="q4" value="D"> D) gone</label>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="question">He ____ a book two days ago.</div>
+            <div class="options">
+                <label><input type="radio" name="q5" value="A"> A) read</label> <!-- ✅ คำตอบที่ถูกต้อง -->
+                <label><input type="radio" name="q5" value="B"> B) reads</label>
+                <label><input type="radio" name="q5" value="C"> C) is reading</label>
+                <label><input type="radio" name="q5" value="D"> D) was reading</label>
+            </div>
+
+            <!-- Question 6 -->
+            <div class="question">I ____ my homework before dinner.</div>
+            <div class="options">
+                <label><input type="radio" name="q6" value="A"> A) finish</label>
+                <label><input type="radio" name="q6" value="B"> B) finished</label> <!-- ✅ คำตอบที่ถูกต้อง -->
+                <label><input type="radio" name="q6" value="C"> C) finishing</label>
+                <label><input type="radio" name="q6" value="D"> D) finishes</label>
+            </div>
+
+            <!-- Question 7 -->
+            <div class="question">She ____ a letter to her friend last month.</div>
+            <div class="options">
+                <label><input type="radio" name="q7" value="A"> A) write</label>
+                <label><input type="radio" name="q7" value="B"> B) writes</label>
+                <label><input type="radio" name="q7" value="C"> C) wrote</label> <!-- ✅ คำตอบที่ถูกต้อง -->
+                <label><input type="radio" name="q7" value="D"> D) writing</label>
+            </div>
+
+            <!-- Question 8 -->
+            <div class="question">They ____ home early last night.</div>
+            <div class="options">
+                <label><input type="radio" name="q8" value="A"> A) arrive</label>
+                <label><input type="radio" name="q8" value="B"> B) arrived</label> <!-- ✅ คำตอบที่ถูกต้อง -->
+                <label><input type="radio" name="q8" value="C"> C) arriving</label>
+                <label><input type="radio" name="q8" value="D"> D) arrives</label>
+            </div>
+
+            <!-- Question 9 -->
+            <div class="question">We ____ to the concert last Friday.</div>
+            <div class="options">
+                <label><input type="radio" name="q9" value="A"> A) go</label>
+                <label><input type="radio" name="q9" value="B"> B) going</label>
+                <label><input type="radio" name="q9" value="C"> C) went</label> <!-- ✅ คำตอบที่ถูกต้อง -->
+                <label><input type="radio" name="q9" value="D"> D) gone</label>
+            </div>
+
+            <!-- Question 10 -->
+            <div class="question">He ____ a new bike last week.</div>
+            <div class="options">
+                <label><input type="radio" name="q10" value="A"> A) buy</label>
+                <label><input type="radio" name="q10" value="B"> B) buys</label>
+                <label><input type="radio" name="q10" value="C"> C) bought</label> <!-- ✅ คำตอบที่ถูกต้อง -->
+                <label><input type="radio" name="q10" value="D"> D) buying</label>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="button" onclick="checkAnswers()">ตรวจคำตอบ</button>
+        </form>
+
+        <p class="result" id="result"></p>
+    </div>
+
+    <script>
+        function checkAnswers() {
+            let answers = {
+                "q1": "C", // I played football.
+                "q2": "C", // went
+                "q3": "A", // watched
+                "q4": "B", // went
+                "q5": "A", // read
+                "q6": "B", // finished
+                "q7": "C", // wrote
+                "q8": "B", // arrived
+                "q9": "C", // went
+                "q10": "C", // bought
+            };
+
+            let totalQuestions = Object.keys(answers).length;
+            let score = 0;
+
+            for (let question in answers) {
+                let selected = document.querySelector(`input[name="${question}"]:checked`);
+                if (selected) {
+                    if (selected.value === answers[question]) {
+                        score++;
+                    }
+                }
+            }
+
+            let resultText = `คุณได้คะแนน ${score} / ${totalQuestions}`;
+            let resultElement = document.getElementById("result");
+            
+            if (score === totalQuestions) {
+                resultElement.innerHTML = "ถือว่าที่เรียนไปได้ใช้เก่งๆ " + resultText;
+                resultElement.style.color = "green";
+            } else if (score >= totalQuestions / 2) {
+                resultElement.innerHTML = "😊 ทำได้ดี! " + resultText;
+                resultElement.style.color = "orange";
+            } else {
+                resultElement.innerHTML = "กระจอกจัด🤣! " + resultText;
+                resultElement.style.color = "red";
+            }
+        }
+    </script>
+
+</body>
+</html>
+
